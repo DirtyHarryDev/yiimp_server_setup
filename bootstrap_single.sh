@@ -9,10 +9,7 @@
 # Clone the Yiimp repository if it doesn't exist.
 if [ ! -d $HOME/yiimpserver/yiimp_single ]; then
 	echo Downloading Dirty Harry Yiimp Single Server Installer v1.0. . .
-	git clone https://github.com/DirtyHarryDev/server_yiimp_single \
-		$HOME/yiimpserver/yiimp_single \
-		< /dev/null 2> /dev/null
-
+	git clone https://github.com/DirtyHarryDev/server_yiimp_single "$HOME"/yiimpserver/yiimp_single < /dev/null 2> /dev/null
 	echo
 fi
 
