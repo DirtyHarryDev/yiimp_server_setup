@@ -65,7 +65,7 @@ fi
 ARCHITECTURE=$(uname -m)
 if [ "$ARCHITECTURE" != "x86_64" ]; then
   if [ -z "$ARM" ]; then
-    echo "Dirty Harry`s Crypto-Server Setup Installer only supports x86_64 and will not work on any other architecture, like ARM or 32 bit OS."
+    echo "Dirty Harry YiiMP Seerver Installer only supports x86_64 and will not work on any other architecture, like ARM or 32 bit OS."
     echo "Your architecture is $ARCHITECTURE"
     exit
   fi
