@@ -6,7 +6,7 @@
 
 source /etc/functions.sh
 
-RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Dirty Harrys Yiimp Server Setup Installer v1.0" --menu "Choose one" -1 60 16 \
+RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Dirty Harry Yiimp Server Installer v1.0" --menu "Choose one" -1 60 16 \
 ' ' "- YiiMP Server Install -" \
 1 "YiiMP Single Server" \
 2 "YiiMP Multi Server" \
