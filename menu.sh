@@ -9,6 +9,7 @@ source /etc/functions.sh
 RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Dirty Harry Yiimp Server Installer v1.0" --menu "Choose one" -1 60 16 \
 ' ' "- YiiMP Server Install -" \
 1 "YiiMP Single Server" \
+' ' "- More Will Be Added Later -" \
 2 Exit)
 if [ $RESULT = ]
 then
